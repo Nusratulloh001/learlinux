@@ -1,10 +1,5 @@
 <?php
 
+require "vendor/autoload.php";
 
-echo "We just now start learning git";
-
-/**
- * 
- * This file was changed
- * 
- */
+require "App/main.php";
