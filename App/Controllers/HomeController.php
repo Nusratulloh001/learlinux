@@ -1,7 +1,5 @@
 <?php
 
 $stream = opendir(__DIR__);
-
-while ($e = readdir($stream)) {
-    echo $e . '<br>';
-}
+echo '<pre>';
+print_r(scandir(__DIR__));
